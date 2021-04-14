@@ -1,1 +1,39 @@
 
+{
+ "id": "com.sample.box",
+ "version": "1.0.0",
+ "name": "Box",
+ "description": "A colored box",
+ "newInstancePrefix": "Box",
+ "icon": "https://github.com/Reginek-SAC/coloredbox/icon.png",
+ "vendor": "Sample",
+ "eula": "",
+ "license": "",
+ "webcomponents": [
+ {
+ "kind": "main",
+"tag": "com-sample-box-styling",
+ "url": "https://github.com/Reginek-SAC/coloredbox/coloredbox.js",
+ "integrity": "",
+ "ignoreIntegrity": true
+ },
+ {
+ "kind": "styling",
+ "tag": "com-sap-sample-coloredbox-styling",
+ "url": "https://github.com/Reginek-SAC/coloredbox/coloredbox-styling.js",
+ "integrity": "",
+ "ignoreIntegrity": true
+ },
+ {
+ "kind": "builder",
+ "tag": "com-sap-sample-coloredbox-builder",
+ "url": "https://github.com/Reginek-SAC/coloredbox/coloredbox_builder.js",
+ "integrity": "",
+ "ignoreIntegrity": true
+ }
+ ],
+ "properties": {
+ "color": {
+ "type": "string",
+ "description": "Background color",
+ "default": "red"
