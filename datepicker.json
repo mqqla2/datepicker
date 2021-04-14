@@ -7,8 +7,8 @@
   ],
   "description": "jQuery UI Month Picker plugin",
   "main": [
-    "MonthPicker.js",
-    "MonthPicker.css"
+    "DatePicker.js",
+    "DatePicker.css"
   ],
   "moduleType": [
     "globals"
