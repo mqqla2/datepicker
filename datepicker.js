@@ -8,7 +8,7 @@
  class DatePicker extends HTMLElement {
   constructor() {
       super();
-      this.appendChild(template.content.cloneNode(true));
+      this.appendChild(datepicker.content.cloneNode(true));
       this.addEventListener("click", event => {
       var event = new Event("onClick");
       this.dispatchEvent(event);
@@ -22,5 +22,5 @@
 
       }
   }
-  customElements.define("com-sample-coloredbox", ColoredBox);
+  customElements.define("com-sap-sample-reginek-datepicker", DatePicker);
 })();
