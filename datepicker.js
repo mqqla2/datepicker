@@ -7,6 +7,7 @@
  `;
  class DatePicker extends HTMLElement {
   constructor() {
+  alert('dupa!!!')
       super();
       this.appendChild(datepicker.content.cloneNode(true));
       this.addEventListener("click", event => {

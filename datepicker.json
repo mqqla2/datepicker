@@ -3,7 +3,7 @@
  "version": "0.0.1",
  "name": "Datepicker",
  "description": "A fancy datePicker",
- "newInstancePrefix": "FancyDatePicker",
+ "newInstancePrefix": "DatePicker",
  "icon": "https://github.com/Reginek-SAC/datepicker/icon.png",
  "vendor": "SAP",
  "eula": "",
