@@ -5,21 +5,21 @@
  "description": "A fancy datePicker",
  "newInstancePrefix": "DatePicker",
  "icon": "https://github.com/Reginek-SAC/datepicker/icon.png",
- "vendor": "SAP",
+ "vendor": "MQQLA",
  "eula": "",
  "license": "",
  "webcomponents": [
   {
    "kind": "main",
    "tag": "com-sap-sample-reginek-datepicker",
-   "url": "https://raw.githubusercontent.com/mqqla2/datepicker/master/datepicker.js",
+   "url": "https://mqqla2.github.io/datepicker/datepicker.js",
    "integrity": "",
    "ignoreIntegrity": true
   },
   {
    "kind": "styling",
    "tag": "com-sap-sample-reginek-datepicker-styling",
-   "url": "https://raw.githubusercontent.com/mqqla2/datepicker/master/datepicker.css",
+   "url": "https://mqqla2.github.io/datepicker/datepicker.css",
    "integrity": "",
    "ignoreIntegrity": true
   },
