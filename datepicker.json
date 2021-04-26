@@ -12,14 +12,14 @@
   {
    "kind": "main",
    "tag": "com-sap-sample-reginek-datepicker",
-   "url": "https://raw.githubusercontent.com/mikecoj/MCDatepicker/master/dist/mc-calendar.min.js",
+   "url": "https://raw.githubusercontent.com/mqqla2/datepicker/master/datepicker.js",
    "integrity": "",
    "ignoreIntegrity": true
   },
   {
    "kind": "styling",
    "tag": "com-sap-sample-reginek-datepicker-styling",
-   "url": "https://raw.githubusercontent.com/mikecoj/MCDatepicker/master/dist/mc-calendar.min.css",
+   "url": "https://raw.githubusercontent.com/mqqla2/datepicker/master/datepicker.css",
    "integrity": "",
    "ignoreIntegrity": true
   },
