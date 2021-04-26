@@ -1,39 +1,43 @@
-
 {
- "id": "com.sample.box",
- "version": "1.0.0",
- "name": "Box",
- "description": "A colored box",
- "newInstancePrefix": "Box",
- "icon": "https://github.com/Reginek-SAC/coloredbox/icon.png",
- "vendor": "Sample",
+ "id": "com.sap.sample.reginek.datepicker",
+ "version": "0.0.1",
+ "name": "Datepicker",
+ "description": "A fancy datePicker",
+ "newInstancePrefix": "FancyDatePicker",
+ "icon": "https://github.com/Reginek-SAC/datepicker/icon.png",
+ "vendor": "SAP",
  "eula": "",
  "license": "",
  "webcomponents": [
- {
- "kind": "main",
-"tag": "com-sample-box-styling",
- "url": "https://github.com/Reginek-SAC/coloredbox/coloredbox.js",
- "integrity": "",
- "ignoreIntegrity": true
- },
- {
- "kind": "styling",
- "tag": "com-sap-sample-coloredbox-styling",
- "url": "https://github.com/Reginek-SAC/coloredbox/coloredbox-styling.js",
- "integrity": "",
- "ignoreIntegrity": true
- },
- {
- "kind": "builder",
- "tag": "com-sap-sample-coloredbox-builder",
- "url": "https://github.com/Reginek-SAC/coloredbox/coloredbox_builder.js",
- "integrity": "",
- "ignoreIntegrity": true
- }
+  {
+   "kind": "main",
+   "tag": "com-sap-sample-reginek-datepicker",
+   "url": "https://raw.githubusercontent.com/mikecoj/MCDatepicker/master/dist/mc-calendar.min.js",
+   "integrity": "",
+   "ignoreIntegrity": true
+  },
+  {
+   "kind": "styling",
+   "tag": "com-sap-sample-reginek-datepicker-styling",
+   "url": "https://raw.githubusercontent.com/mikecoj/MCDatepicker/master/dist/mc-calendar.min.css",
+   "integrity": "",
+   "ignoreIntegrity": true
+  },
+  {
+   "kind": "builder",
+   "tag": "com-sap-sample-reginek-datepicker-builder",
+   "url": "https://github.com/Reginek-SAC/datepicker/datepicker.js",
+   "integrity": "",
+   "ignoreIntegrity": true
+  }
  ],
  "properties": {
- "color": {
- "type": "string",
- "description": "Background color",
- "default": "red"
+
+ },
+ "methods": {
+
+ },
+ "events": {
+
+ }
+}
