@@ -2,8 +2,25 @@
 
 (function() {
  let datepicker = document.createElement("datepicker");
- template.innerHTML = `
+ datepicker.innerHTML = `
  <input type="text" id="datepicker" autocomplete="off"></input>
  `;
- //customElements.define("com-sample-coloredbox", ColoredBox);
+ class DatePicker extends HTMLElement {
+  constructor() {
+      super();
+      this.appendChild(template.content.cloneNode(true));
+      this.addEventListener("click", event => {
+      var event = new Event("onClick");
+      this.dispatchEvent(event);
+      });
+      this._props = {};
+      }
+      onCustomWidgetBeforeUpdate(changedProperties) {
+        this._props = { ...this._props, ...changedProperties };
+      }
+      onCustomWidgetAfterUpdate(changedProperties) {
+
+      }
+  }
+  customElements.define("com-sample-coloredbox", ColoredBox);
 })();
