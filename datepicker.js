@@ -20,7 +20,6 @@
         this._props = { ...this._props, ...changedProperties };
       }
       onCustomWidgetAfterUpdate(changedProperties) {
-
       }
   }
   customElements.define("com-sap-sample-reginek-datepicker", DatePicker);
