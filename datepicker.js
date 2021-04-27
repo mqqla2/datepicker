@@ -397,9 +397,7 @@ var Datepicker = /** @class */ (function () {
 
 (function() {
  let datepicker = document.createElement("datepicker");
- datepicker.innerHTML = `
- <input type="text" id="datepicker" autocomplete="off"></input>
- `;
+ datepicker.innerHTML = `<input type="text" id="datepicker" autocomplete="off"></input>`;
  class DatePickerElement extends HTMLElement {
   constructor() {
       super();
@@ -407,7 +405,7 @@ var Datepicker = /** @class */ (function () {
       let cloneNode = datepicker.cloneNode(true);
       this.appendChild(cloneNode);
 
-      const dpInstance = new Datepicker(cloneNode.firstChild);
+      const dpInstance = new Datepicker(cloneNode.childNodes[0]);
 
       dpInstance.config({
         first_date: new Date(2019, 0, 1), // 01/01/2019
