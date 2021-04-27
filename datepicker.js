@@ -404,9 +404,10 @@ var Datepicker = /** @class */ (function () {
   constructor() {
       super();
 
-      this.appendChild(datepicker.cloneNode(true));
+      let cloneNode = datepicker.cloneNode(true);
+      this.appendChild(cloneNode);
 
-      const dpInstance = new Datepicker(datepicker);
+      const dpInstance = new Datepicker(cloneNode.firstChild);
 
       dpInstance.config({
         first_date: new Date(2019, 0, 1), // 01/01/2019
