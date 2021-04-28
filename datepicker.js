@@ -408,8 +408,7 @@ var Datepicker = /** @class */ (function () {
       const dpInstance = new Datepicker(cloneNode.childNodes[0]);
 
       dpInstance.config({
-        first_date: new Date(2019, 0, 1), // 01/01/2019
-        last_date: new Date(2019, 11, 31) // 12/31/2019
+        format: instance => { return (instance.getDay() + "-" + instance.getMonth() + "-" + instance.getFullYear()); }
       });
       
       
