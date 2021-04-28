@@ -10,11 +10,11 @@
       let cloneNode = datepicker.cloneNode(true);
       this.appendChild(cloneNode);
       
-      cloneNode.addEventListener("click", event => {
+      /*cloneNode.addEventListener("click", event => {
         var event = new Event("onClick");
         this.dispatchEvent(event);
         });
-
+*/
       this._props = {};
       }
       onCustomWidgetBeforeUpdate(changedProperties) {
@@ -25,7 +25,7 @@
       }
 
       connectedCallback() {
-        const firstCalendar = MCDatepicker.create({ el: '#datepicker' })
+        const firstCalendar = MCDatepicker.create({ el: '#datepicker', bodyType: 'inline' })
       }
   }
   customElements.define("com-sap-sample-reginek-datepicker", DatePickerElement);
