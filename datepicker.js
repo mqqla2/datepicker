@@ -10,6 +10,11 @@
       let cloneNode = datepicker.cloneNode(true);
       this.appendChild(cloneNode);
       
+      cloneNode.addEventListener("click", event => {
+        var event = new Event("onClick");
+        this.dispatchEvent(event);
+        });
+
       this._props = {};
       }
       onCustomWidgetBeforeUpdate(changedProperties) {
